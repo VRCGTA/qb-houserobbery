@@ -13,7 +13,7 @@ Config.RequireScrewdriver = true          -- if true, you need a screwdriver to 
 Config.ChanceToBreakLockPick = 30         -- chance in percent to break a normal lockpick if failed
 Config.ChanceToBreakAdvancedLockPick = 15 -- chance in percent to break a advanced lockpick if failed
 
-Config.ChanceToAlertPolice = 75           -- chance in percent to call the police if a house robbery is in progress
+Config.ChanceToAlertPolice = 100          -- chance in percent to call the police if a house robbery is in progress
 
 Config.MinZOffset = 45
 
@@ -35,7 +35,7 @@ Config.Rewards = {
         },
         ['chest'] = {
             { item = 'plastic',             min = 1, max = 4 },
-            { item = 'rolex',               min = 1, max = 2 },
+            { item = 'rolex',               min = 1, max = 1 },
             { item = 'diamond_ring',        min = 1, max = 1 },
             { item = 'goldchain',           min = 1, max = 1 },
             { item = 'weed_skunk',          min = 1, max = 5 },
