@@ -1,6 +1,6 @@
 Config = {}
 
-Config.PoliceOnDutyRequired = 2           -- amount of police required to be on duty to rob a house
+Config.PoliceOnDutyRequired = 3           -- amount of police required to be on duty to rob a house
 
 Config.LimitTime = true                   -- Use in-game clock hours to set the time the houses can be robbed
 Config.MinimumTime = 8                    -- only needed if LimitTime is true
@@ -21,8 +21,6 @@ Config.Rewards = {
     [1] = { -- house tier
         ['cabin'] = {
             { item = 'plastic',         min = 1, max = 3 },
-            { item = 'diamond_ring',    min = 1, max = 1 },
-            { item = 'goldchain',       min = 1, max = 1 },
             { item = 'weed_skunk',      min = 1, max = 3 },
             { item = 'thermite',        min = 1, max = 1 },
             { item = 'cryptostick',     min = 1, max = 1 },
@@ -35,8 +33,6 @@ Config.Rewards = {
         },
         ['chest'] = {
             { item = 'plastic',             min = 1, max = 4 },
-            { item = 'rolex',               min = 1, max = 1 },
-            { item = 'diamond_ring',        min = 1, max = 1 },
             { item = 'goldchain',           min = 1, max = 1 },
             { item = 'weed_skunk',          min = 1, max = 5 },
             { item = 'thermite',            min = 1, max = 1 },
@@ -45,8 +41,6 @@ Config.Rewards = {
         },
         ['livingroom'] = {
             { item = 'plastic',      min = 1, max = 4 },
-            { item = 'rolex',        min = 1, max = 1 },
-            { item = 'diamond_ring', min = 1, max = 1 },
             { item = 'goldchain',    min = 1, max = 1 },
             { item = 'thermite',     min = 1, max = 1 },
             { item = 'cryptostick',  min = 1, max = 1 },
