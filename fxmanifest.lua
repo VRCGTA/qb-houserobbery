@@ -1,7 +1,8 @@
 fx_version 'cerulean'
 game 'gta5'
-
-description 'QB-HouseRobbery'
+lua54 'yes'
+author 'Kakarot'
+description 'Allows players to rob houses for items to sell'
 version '1.2.0'
 
 shared_scripts {
@@ -15,8 +16,5 @@ client_script 'client/main.lua'
 server_script 'server/main.lua'
 
 dependencies {
-    'qb-lockpick',
-    'qb-skillbar'
+    'qb-minigames'
 }
-
-lua54 'yes'
