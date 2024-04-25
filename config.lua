@@ -1,6 +1,8 @@
 Config = {}
 
-Config.PoliceOnDutyRequired = exports['vrcgta-qb']:GetValue('HousePoliceOnDutyRequired')           -- amount of police required to be on duty to rob a house
+function Config.GetPoliceOnDutyRequired()
+    return GetConvarInt("vrcgta:houseRobbery:housePoliceOnDutyRequired", 999)
+end
 
 Config.LimitTime = true                   -- Use in-game clock hours to set the time the houses can be robbed
 Config.MinimumTime = 8                    -- only needed if LimitTime is true

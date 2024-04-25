@@ -153,7 +153,7 @@ RegisterNetEvent('lockpicks:UseLockpick', function(isAdvanced)
 
     usingAdvanced = isAdvanced
     if closestHouse ~= nil then
-        if CurrentCops >= Config.PoliceOnDutyRequired then
+        if CurrentCops >= Config.GetPoliceOnDutyRequired() then
             if not Config.Houses[closestHouse]['opened'] then
                 if not usingAdvanced then
                     if Config.RequireScrewdriver and not QBCore.Functions.HasItem('screwdriverset') then
@@ -227,7 +227,7 @@ CreateThread(function()
                 if dist <= 1.5 then
                     closestHouse = k
                     inRange = true
-                    if CurrentCops >= Config.PoliceOnDutyRequired then
+                    if CurrentCops >= Config.GetPoliceOnDutyRequired() then
                         if Config.Houses[k]['opened'] then
                             DrawText3Ds(Config.Houses[k]['coords']['x'], Config.Houses[k]['coords']['y'], Config.Houses[k]['coords']['z'], Lang:t('info.henter'))
                             if IsControlJustPressed(0, 38) then
