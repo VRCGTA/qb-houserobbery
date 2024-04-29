@@ -22,30 +22,51 @@ Config.MinZOffset = 45
 Config.Rewards = {
     [1] = { -- house tier
         ['cabin'] = {
-            { item = 'plastic',         min = 1, max = 3 },
-            { item = 'weed_skunk',      min = 1, max = 3 },
+            { item = 'plastic',         min = 10, max = 20 },
             { item = 'thermite',        min = 1, max = 2 },
-            { item = 'cryptostick',     min = 1, max = 3 },
             { item = 'weapon_golfclub', min = 1, max = 1 },
         },
         ['kitchen'] = {
             { item = 'tosti',     min = 1, max = 3 },
             { item = 'sandwich',  min = 1, max = 2 },
-            { item = 'goldchain', min = 1, max = 1 }
+            { item = 'tenkgoldchain', min = 1, max = 1 }
         },
         ['chest'] = {
-            { item = 'plastic',             min = 1, max = 4 },
-            { item = 'goldchain',           min = 1, max = 3 },
-            { item = 'weed_skunk',          min = 1, max = 5 },
+            { item = 'plastic',             min = 20, max = 40 },
+            { item = 'tenkgoldchain',           min = 1, max = 3 },
             { item = 'thermite',            min = 1, max = 2 },
-            { item = 'cryptostick',         min = 1, max = 2 },
-            { item = 'weapon_combatpistol', min = 1, max = 1 }
+            { item = 'weapon_vintagepistol', min = 1, max = 1 }
         },
         ['livingroom'] = {
             { item = 'plastic',      min = 1, max = 4 },
-            { item = 'goldchain',    min = 1, max = 3 },
+            { item = 'tenkgoldchain',    min = 1, max = 3 },
             { item = 'thermite',     min = 1, max = 2 },
-            { item = 'cryptostick',  min = 1, max = 2 },
+            { item = 'tablet',       min = 1, max = 1 },
+            { item = 'pistol_ammo',  min = 1, max = 3 }
+        }
+    },
+    [2] = { -- house tier
+        ['cabin'] = {
+            { item = 'plastic',         min = 10, max = 20 },
+            { item = 'thermite',        min = 1, max = 2 },
+            { item = 'weapon_golfclub', min = 1, max = 1 },
+        },
+        ['kitchen'] = {
+            { item = 'tosti',     min = 1, max = 3 },
+            { item = 'sandwich',  min = 1, max = 2 },
+            { item = 'tenkgoldchain', min = 1, max = 1 }
+        },
+        ['chest'] = {
+            { item = 'plastic',             min = 20, max = 40 },
+            { item = 'tenkgoldchain',           min = 1, max = 3 },
+            { item = 'thermite',            min = 1, max = 2 },
+            { item = 'weapon_vintagepistol', min = 1, max = 1 },
+            { item = 'techbook_sg', min = 1, max = 1 }
+        },
+        ['livingroom'] = {
+            { item = 'plastic',      min = 1, max = 4 },
+            { item = 'tenkgoldchain',    min = 1, max = 3 },
+            { item = 'thermite',     min = 1, max = 2 },
             { item = 'tablet',       min = 1, max = 1 },
             { item = 'pistol_ammo',  min = 1, max = 3 }
         }
@@ -4817,7 +4838,7 @@ Config.Houses = {
             ['h'] = 225.27
         },
         ['opened'] = false,
-        ['tier'] = 1,
+        ['tier'] = 2,
         ['furniture'] = {
             [1] = {
                 ['type'] = 'cabin',
