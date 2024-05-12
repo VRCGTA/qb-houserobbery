@@ -23,7 +23,7 @@ Config.Rewards = {
     [1] = { -- house tier
         ['cabin'] = {
             { item = 'plastic',         min = 10, max = 20 },
-            { item = 'thermite',        min = 1, max = 2 },
+            { item = 'goldchain',        min = 1, max = 2 },
             { item = 'weapon_golfclub', min = 1, max = 1 },
         },
         ['kitchen'] = {
@@ -34,13 +34,13 @@ Config.Rewards = {
         ['chest'] = {
             { item = 'plastic',             min = 20, max = 40 },
             { item = 'tenkgoldchain',           min = 1, max = 3 },
-            { item = 'thermite',            min = 1, max = 2 },
+            { item = 'goldchain',            min = 1, max = 2 },
             { item = 'weapon_vintagepistol', min = 1, max = 1 }
         },
         ['livingroom'] = {
             { item = 'plastic',      min = 1, max = 4 },
             { item = 'tenkgoldchain',    min = 1, max = 3 },
-            { item = 'thermite',     min = 1, max = 2 },
+            { item = 'goldchain',     min = 1, max = 2 },
             { item = 'tablet',       min = 1, max = 1 },
             { item = 'pistol_ammo',  min = 1, max = 3 }
         }
